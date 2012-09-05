@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MAVLinkRemote</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../res/resources.qrc">
+    <normaloff>:/icons/icon.png</normaloff>:/icons/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout" rowstretch="0,3,2">
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="groupBox_j0">
+      <property name="title">
+       <string>Joystick 1</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="2" column="2">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_2">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_3">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_6">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_4">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_0">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="label_j_0_a_7">
+           <property name="text">
+            <string>j0a7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_1">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_5">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="7">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_a_7">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_0">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_1">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_2">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_3">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="4">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_4">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_5">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="6">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_6">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="7">
+          <widget class="QLCDNumber" name="lcdNumber_j_0_s_7">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QSlider" name="verticalSlider_j_0_a_4">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QSlider" name="verticalSlider_j_0_a_2">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QSlider" name="verticalSlider_j_0_a_3">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QSlider" name="verticalSlider_j_0_a_7">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QSlider" name="verticalSlider_j_0_a_6">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QSlider" name="verticalSlider_j_0_a_0">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QSlider" name="verticalSlider_j_0_a_5">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSlider" name="verticalSlider_j_0_a_1">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QSlider" name="verticalSlider_j_0_s_0">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSlider" name="verticalSlider_j_0_s_1">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QSlider" name="verticalSlider_j_0_s_2">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QSlider" name="verticalSlider_j_0_s_3">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QSlider" name="verticalSlider_j_0_s_4">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QSlider" name="verticalSlider_j_0_s_5">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QSlider" name="verticalSlider_j_0_s_6">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="7">
+          <widget class="QSlider" name="verticalSlider_j_0_s_7">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_j_0_a_0">
+           <property name="text">
+            <string>j0a0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_j_0_a_1">
+           <property name="text">
+            <string>j0a1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_j_0_a_2">
+           <property name="text">
+            <string>j0a2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_j_0_a_3">
+           <property name="text">
+            <string>j0a3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_j_0_a_4">
+           <property name="text">
+            <string>j0a4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="label_j_0_a_5">
+           <property name="text">
+            <string>j0a5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="label_j_0_a_6">
+           <property name="text">
+            <string>j0a6</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_j_0_s_0">
+           <property name="text">
+            <string>j0s0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_j_0_s_1">
+           <property name="text">
+            <string>j0s1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="label_j_0_s_2">
+           <property name="text">
+            <string>j0s2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLabel" name="label_j_0_s_3">
+           <property name="text">
+            <string>j0s3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="label_j_0_s_4">
+           <property name="text">
+            <string>j0s4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QLabel" name="label_j_0_s_5">
+           <property name="text">
+            <string>j0s5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QLabel" name="label_j_0_s_6">
+           <property name="text">
+            <string>j0s6</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="7">
+          <widget class="QLabel" name="label_j_0_s_7">
+           <property name="text">
+            <string>j0s7</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QGroupBox" name="groupBox_j1">
+      <property name="title">
+       <string>Joystick 2</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="3" column="5">
+          <widget class="QLabel" name="label_j_1_s_5">
+           <property name="text">
+            <string>j1s5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLabel" name="label_j_1_s_3">
+           <property name="text">
+            <string>j1s3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="label_j_1_s_4">
+           <property name="text">
+            <string>j1s4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_4">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QSlider" name="verticalSlider_j_1_s_0">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QSlider" name="verticalSlider_j_1_a_0">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="label_j_1_s_2">
+           <property name="text">
+            <string>j1s2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="label_j_1_a_7">
+           <property name="text">
+            <string>j1a7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_0">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="7">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_7">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_j_1_a_0">
+           <property name="text">
+            <string>j1a0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_j_1_a_1">
+           <property name="text">
+            <string>j1a1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_j_1_a_2">
+           <property name="text">
+            <string>j1a2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_j_1_a_3">
+           <property name="text">
+            <string>j1a3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_j_1_a_4">
+           <property name="text">
+            <string>j1a4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="label_j_1_a_5">
+           <property name="text">
+            <string>j1a5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="label_j_1_a_6">
+           <property name="text">
+            <string>j1a6</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_j_1_s_0">
+           <property name="text">
+            <string>j1s0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_j_1_s_1">
+           <property name="text">
+            <string>j1s1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_5">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSlider" name="verticalSlider_j_1_a_1">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QSlider" name="verticalSlider_j_1_a_3">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QSlider" name="verticalSlider_j_1_a_4">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QSlider" name="verticalSlider_j_1_a_6">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QSlider" name="verticalSlider_j_1_a_5">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QSlider" name="verticalSlider_j_1_a_2">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QSlider" name="verticalSlider_j_1_a_7">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_6">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_3">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_2">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_a_1">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QLabel" name="label_j_1_s_6">
+           <property name="text">
+            <string>j1s6</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="7">
+          <widget class="QLabel" name="label_j_1_s_7">
+           <property name="text">
+            <string>j1s7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSlider" name="verticalSlider_j_1_s_1">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QSlider" name="verticalSlider_j_1_s_2">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QSlider" name="verticalSlider_j_1_s_3">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QSlider" name="verticalSlider_j_1_s_4">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QSlider" name="verticalSlider_j_1_s_5">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QSlider" name="verticalSlider_j_1_s_6">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="7">
+          <widget class="QSlider" name="verticalSlider_j_1_s_7">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="7">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_7">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="6">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_6">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_5">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="4">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_4">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_3">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_2">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_1">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLCDNumber" name="lcdNumber_j_1_s_0">
+           <property name="numDigits">
+            <number>4</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QGroupBox" name="groupBox_channels">
+      <property name="title">
+       <string>Output Channels</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="lineEdit_ch_0"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QSlider" name="verticalSlider_ch_0">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_ch_0">
+         <property name="text">
+          <string>ch0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLCDNumber" name="lcdNumber_ch_0">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLineEdit" name="lineEdit_ch_5"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSlider" name="verticalSlider_ch_1">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QSlider" name="verticalSlider_ch_2">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_ch_1"/>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="lineEdit_ch_4"/>
+       </item>
+       <item row="4" column="7">
+        <widget class="QLineEdit" name="lineEdit_ch_7"/>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLineEdit" name="lineEdit_ch_6"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="lineEdit_ch_3"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QSlider" name="verticalSlider_ch_3">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="lineEdit_ch_2"/>
+       </item>
+       <item row="2" column="4">
+        <widget class="QSlider" name="verticalSlider_ch_4">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QSlider" name="verticalSlider_ch_5">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QSlider" name="verticalSlider_ch_6">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QSlider" name="verticalSlider_ch_7">
+         <property name="minimum">
+          <number>-200</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="7">
+        <widget class="QLCDNumber" name="lcdNumber_ch_7">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLCDNumber" name="lcdNumber_ch_6">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLCDNumber" name="lcdNumber_ch_5">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLCDNumber" name="lcdNumber_ch_4">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLCDNumber" name="lcdNumber_ch_3">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLCDNumber" name="lcdNumber_ch_2">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="7">
+        <widget class="QLabel" name="label_ch_7">
+         <property name="text">
+          <string>ch7</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLabel" name="label_ch_6">
+         <property name="text">
+          <string>ch6</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLabel" name="label_ch_5">
+         <property name="text">
+          <string>ch5</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_ch_4">
+         <property name="text">
+          <string>ch4</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_ch_3">
+         <property name="text">
+          <string>ch3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_ch_2">
+         <property name="text">
+          <string>ch2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_ch_1">
+         <property name="text">
+          <string>ch1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLCDNumber" name="lcdNumber_ch_1">
+         <property name="numDigits">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3" colspan="5">
+        <widget class="QComboBox" name="comboBox_preset">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QPushButton" name="pushButton_save">
+         <property name="text">
+          <string>save state</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>verticalSlider_j_0_a_0</tabstop>
+  <tabstop>verticalSlider_j_0_a_1</tabstop>
+  <tabstop>verticalSlider_j_0_a_2</tabstop>
+  <tabstop>verticalSlider_j_0_a_3</tabstop>
+  <tabstop>verticalSlider_j_0_a_4</tabstop>
+  <tabstop>verticalSlider_j_0_a_5</tabstop>
+  <tabstop>verticalSlider_j_0_a_6</tabstop>
+  <tabstop>verticalSlider_j_0_a_7</tabstop>
+  <tabstop>verticalSlider_j_0_s_0</tabstop>
+  <tabstop>verticalSlider_j_0_s_1</tabstop>
+  <tabstop>verticalSlider_j_0_s_2</tabstop>
+  <tabstop>verticalSlider_j_0_s_3</tabstop>
+  <tabstop>verticalSlider_j_0_s_4</tabstop>
+  <tabstop>verticalSlider_j_0_s_5</tabstop>
+  <tabstop>verticalSlider_j_0_s_6</tabstop>
+  <tabstop>verticalSlider_j_0_s_7</tabstop>
+  <tabstop>verticalSlider_j_1_a_0</tabstop>
+  <tabstop>verticalSlider_j_1_a_1</tabstop>
+  <tabstop>verticalSlider_j_1_a_2</tabstop>
+  <tabstop>verticalSlider_j_1_a_3</tabstop>
+  <tabstop>verticalSlider_j_1_a_4</tabstop>
+  <tabstop>verticalSlider_j_1_a_5</tabstop>
+  <tabstop>verticalSlider_j_1_a_6</tabstop>
+  <tabstop>verticalSlider_j_1_a_7</tabstop>
+  <tabstop>verticalSlider_j_1_s_0</tabstop>
+  <tabstop>verticalSlider_j_1_s_1</tabstop>
+  <tabstop>verticalSlider_j_1_s_2</tabstop>
+  <tabstop>verticalSlider_j_1_s_3</tabstop>
+  <tabstop>verticalSlider_j_1_s_4</tabstop>
+  <tabstop>verticalSlider_j_1_s_5</tabstop>
+  <tabstop>verticalSlider_j_1_s_6</tabstop>
+  <tabstop>verticalSlider_j_1_s_7</tabstop>
+  <tabstop>verticalSlider_ch_0</tabstop>
+  <tabstop>verticalSlider_ch_1</tabstop>
+  <tabstop>verticalSlider_ch_2</tabstop>
+  <tabstop>verticalSlider_ch_3</tabstop>
+  <tabstop>verticalSlider_ch_4</tabstop>
+  <tabstop>verticalSlider_ch_5</tabstop>
+  <tabstop>verticalSlider_ch_6</tabstop>
+  <tabstop>verticalSlider_ch_7</tabstop>
+  <tabstop>lineEdit_ch_0</tabstop>
+  <tabstop>lineEdit_ch_1</tabstop>
+  <tabstop>lineEdit_ch_2</tabstop>
+  <tabstop>lineEdit_ch_3</tabstop>
+  <tabstop>lineEdit_ch_4</tabstop>
+  <tabstop>lineEdit_ch_5</tabstop>
+  <tabstop>lineEdit_ch_6</tabstop>
+  <tabstop>lineEdit_ch_7</tabstop>
+  <tabstop>comboBox_preset</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../res/resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>verticalSlider_j_0_a_0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_0</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>29</x>
+     <y>135</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>39</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_1</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>86</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_2</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>111</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>123</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_3</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_4</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_5</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>221</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_6</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_a_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_a_7</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_0</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>47</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_1</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>86</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_2</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>111</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>123</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_3</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_4</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_5</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>221</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_6</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_0_s_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_0_s_7</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_0</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_1</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_2</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>417</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_3</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>453</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_4</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>497</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_5</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>530</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>530</x>
+     <y>178</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_6</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_a_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_a_7</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>152</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>602</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_0</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_1</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>379</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_2</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>420</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_3</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>453</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_4</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>487</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_5</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>531</x>
+     <y>316</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_6</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>564</x>
+     <y>317</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_j_1_s_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_j_1_s_7</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>320</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>607</x>
+     <y>350</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_0</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>494</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>44</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_1</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>121</x>
+     <y>557</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_2</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>511</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_3</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>504</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>284</x>
+     <y>558</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_4</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>331</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>564</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_5</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>431</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_6</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_ch_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber_ch_7</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>566</x>
+     <y>512</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>583</x>
+     <y>566</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

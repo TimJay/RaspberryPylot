@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RaspberryPylot" basedir="." default="build_res">
+	<target name="build_res" description="Generates PyQT4 GUI from *.ui and *.qrc">
+		<property name="pyrcc4" location="C:\Python32\Lib\site-packages\PyQt4\pyrcc4.exe" />
+		<property name="res_dir" location="..\res" />
+		<property name="res_gen_dir" location="..\src" />
+		<exec executable="${pyrcc4}" output="${res_gen_dir}\resources_rc.py" logError="true">
+			<arg value="-py3" />
+			<arg value='"${res_dir}\resources.qrc"' />
+		</exec>
+	</target>
+</project>

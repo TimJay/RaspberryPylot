@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RaspberryPylot" basedir="." default="build_ui">
+	<target name="build_ui" description="Generates PyQT4 GUI from *.ui and *.qrc">
+		<property name="pyuic4" location="C:\Python32\Lib\site-packages\PyQt4\uic\pyuic.py" />
+		<property name="ui_dir" location="..\gui" />
+		<property name="ui_gen_dir" location="..\src\RaspberryPylot\gen_gui" />
+		<exec executable="python" output="${ui_gen_dir}\MainWindow.py" logError="true">
+			<arg value="${pyuic4}" />
+			<arg value="${ui_dir}\MainWindow.ui" />
+		</exec>
+	</target>
+</project>

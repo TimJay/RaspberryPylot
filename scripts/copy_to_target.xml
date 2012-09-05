@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RaspberryPylot" basedir="." default="copy_to_target">
+	<target name="copy_to_target" description="Copies all files to the target machine via scp">
+		<property name="target" value="192.168.13.254" />
+		<property name="target.dir" value="/home/pi/bin/RaspberryPylot/" />
+		<scp todir="pi@${target}:${target.dir}" keyfile="id_rsa_rpi">
+			<fileset dir="../src" />
+		</scp>
+	</target>
+</project>
