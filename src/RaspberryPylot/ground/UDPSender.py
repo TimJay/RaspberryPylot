@@ -58,11 +58,11 @@ class UDPSender(QtCore.QThread):
         '''
         Main loop running at ~1Hz sending heartbeats.
         '''
-        next1HzRun = time.time() + 1.0
+        next4HzRun = time.time() + 0.25
         while not self.exiting:
-            if time.time() > next1HzRun:
+            if time.time() > next4HzRun:
                 # Next runtime for 1Hz
-                next1HzRun += 1.0
+                next4HzRun += 0.25
                 self.send_heartbeat()
             # Give the CPU a bit of rest.
             time.sleep(0.01)

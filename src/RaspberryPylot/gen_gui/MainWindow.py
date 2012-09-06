@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'P:\Raspberry Pi\git\RaspberryPylot\gui\MainWindow.ui'
+# Form implementation generated from reading ui file 'M:\Daten\Privat\RaspberryPi\git\RaspberryPylot\gui\MainWindow.ui'
 #
-# Created: Thu Sep  6 01:34:32 2012
+# Created: Thu Sep  6 20:29:23 2012
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!

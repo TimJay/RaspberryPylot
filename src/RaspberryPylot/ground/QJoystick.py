@@ -94,4 +94,4 @@ class QJoystick(QtCore.QThread):
                             self._last_button_state[j][b] = False
                             self._last_button_time[j][b] = 0
             # Give the CPU a bit of rest.
-            time.sleep(0.005)
+            time.sleep(0.01)
